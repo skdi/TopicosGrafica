@@ -4,7 +4,7 @@
 #include <array>
 #include <vector>
 #include <iterator>
-
+//https://stackoverflow.com/questions/9296059/read-pixel-value-in-bmp-file
 std::vector<char> readBMP(const std::string &file)
 {
     static constexpr size_t HEADER_SIZE = 54;
